@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DoneWithIt",
-    "slug": "DoneWithIt",
+    "name": "SellIt",
+    "slug": "SellIt",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./app/assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#e63c4b"
+      "backgroundColor": "#7ABA78"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,11 +17,11 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.akshay.donewithit",
+      "bundleIdentifier": "com.akshay.sellit",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.akshay.donewithit",
+      "package": "com.akshay.sellit",
       "versionCode": 1
     },
     "description": "A marketplace for selling the stuff you don't need anymore.",

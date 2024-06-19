@@ -9,14 +9,7 @@ import useAuth from "../auth/useAuth";
 
 const menuItems = [
   {
-    title: "My Listings",
-    icon: {
-      name: "format-list-bulleted",
-      backgroundColor: colors.primary,
-    },
-  },
-  {
-    title: "My Messages",
+    title: "Messages",
     icon: {
       name: "email",
       backgroundColor: colors.secondary,
@@ -35,7 +28,7 @@ function AccountScreen({ navigation }) {
         <ListItem
           title={user.name}
           subTitle={user.email}
-          image={require("../assets/mosh.jpg")}
+          image={require("../assets/stylish_man.jpg")}
         />
       </View>
       <View style={styles.container}>

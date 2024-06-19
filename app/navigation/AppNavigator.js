@@ -40,7 +40,7 @@ const AppNavigator = () => {
           ),
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons
-              name="plus-circle"
+              name="plus"
               color={color}
               size={size}
             />

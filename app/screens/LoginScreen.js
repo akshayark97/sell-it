@@ -37,7 +37,7 @@ function LoginScreen(props) {
 
   return (
     <Screen style={styles.container}>
-      <Image style={styles.logo} source={require("../assets/logo-red.png")} />
+      <Image style={styles.logo} source={require("../assets/logo.png")} />
       <ErrorMessage
         error="Invalid email and/or password"
         visible={loginFailed}
@@ -76,8 +76,8 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   logo: {
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
     alignSelf: "center",
     marginTop: 50,
     marginBottom: 20,

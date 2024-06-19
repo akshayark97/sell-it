@@ -11,8 +11,8 @@ function WelcomeScreen({ navigation }) {
       source={require("../assets/background.jpg")}
     >
       <View style={styles.logoContainer}>
-        <Image style={styles.logo} source={require("../assets/logo-red.png")} />
-        <Text style={styles.tagline}>Sell What You Don't Need</Text>
+        <Image style={styles.logo} source={require("../assets/logo.png")} />
+        <Text style={styles.tagline}>SellIt</Text>
       </View>
       <View style={styles.buttonsContainer}>
         <Button title="Login" onPress={() => navigation.navigate("Login")}/>
@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
   },
   tagline: {
     fontSize: 25,
+    color: '#fff',
     fontWeight: "600",
     paddingVertical: 20,
   },
